@@ -13,7 +13,7 @@ local Services = setmetatable({}, {
 
 local QueueTeleport = queue_on_teleport or queueonteleport
 local TeleportCode = [==[
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Scripts/DeathFarm.luau"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xaurorastorex-hue/RBXLSCRIPTS/refs/heads/main/BDF.lua"))()
 ]==]
 
 local LocalPlayer = Services.Players.LocalPlayer
@@ -54,7 +54,7 @@ if GameData and GameData.Floor.Value ~= "Hotel" then
 		end
 
 		local QueueTeleport = queue_on_teleport or queueonteleport
-		QueueTeleport([=[loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Scripts/DeathFarm.luau"))()]=])
+		QueueTeleport([=[loadstring(game:HttpGet("https://raw.githubusercontent.com/xaurorastorex-hue/RBXLSCRIPTS/refs/heads/main/BDF.lua"))()]=])
 
 		SendCaption("Joining a run...")
 		RemotesFolder.CreateElevator:FireServer({
@@ -82,7 +82,7 @@ if game.PlaceId ~= 6839171747 then
 		end
 
 		local QueueTeleport = queue_on_teleport or queueonteleport
-		QueueTeleport([=[loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/Abysall/refs/heads/main/Scripts/DeathFarm.luau"))()]=])
+		QueueTeleport([=[loadstring(game:HttpGet("https://raw.githubusercontent.com/xaurorastorex-hue/RBXLSCRIPTS/refs/heads/main/BDF.lua"))()]=])
 
 		SendCaption("Joining a run...")
 		RemotesFolder.CreateElevator:FireServer({
